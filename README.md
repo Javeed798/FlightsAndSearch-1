@@ -1,1 +1,1 @@
--   - src/     index.js //server     models/     controllers/     middlewares/     services     utils/     config/     repository- tests/ 
+-   - src/     index.js //server     models/     controllers/     middlewares/     services     utils/     config/     repository- tests/  - [//]: # (Query to get the Airports with cityId)select * from Airports Join Cities on Airports.cityId = Cities.id where Cities.id = 3;
