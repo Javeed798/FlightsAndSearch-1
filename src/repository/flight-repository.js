@@ -1,0 +1,1 @@
+const {Flights} = require("../models/index");class FlightRepository {      async createFlight(data) {      try {         const flight = await Flights.create(data);         return flight;      } catch (err) {         console.log(err)         throw {err}      }   }   }module.exports = FlightRepository;
